@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*========================================================================================== basic style */
+	
+	html { height: 100%; padding-bottom: 1px; }
+	
+	body { padding: 0; margin: 0; line-height: 1; background: #FFFFFF; text-align:center;}
+					
+	a { color: #333333; }
+	a:link, a:visited { text-decoration: none; }
+	a:hover, a:active { text-decoration: underline; }
+		
+	img { border: 0px; }
+	
+	table { border-collapse: collapse; border-spacing: 0; }		
+		
+	/*-------------------------------------------------- text */
+
+	* { font-family:"MS PGothic","Hiragino Kaku Gothic Pro"; }
+	
+	html     { font-size: 62.5%; text-shadow: 0px 1px 0px #FFF; }
+	body     { font-size: 13px; font-size: 1.3rem; } /* =13px */
+	h1       { font-size: 24px; font-size: 2.4rem; line-height: 1.4; padding: 0; margin: 0; } /* =24px */
+	h2       { font-size: 22px; font-size: 2.2rem; line-height: 1.4; padding: 0; margin: 0; } /* =22px */
+	h3       { font-size: 18px; font-size: 1.8rem; line-height: 1.4; padding: 0; margin: 0; } /* =18px */
+	h4       { font-size: 16px; font-size: 1.6rem; line-height: 1.4; padding: 0; margin: 0; } /* =16px */
+	h5       { font-size: 16px; font-size: 1.6rem; line-height: 1.4; padding: 0; margin: 0; } /* =16px */
+	p        { font-size: 15px; font-size: 1.5rem; line-height: 1.4; padding: 0; margin: 0; } /* =13px */
+	li       { font-size: 13px; font-size: 1.3rem; line-height: 1.4; padding: 0; margin: 0; } /* =13px */
+	input    { font-size: 13px; font-size: 1.3rem; line-height: 1.0; padding: 1px; margin: 0 5px 0 0; vertical-align:middle; } /* =13px */
+	textarea { font-size: 13px; font-size: 1.3rem; line-height: 1.2; padding: 1px; margin: 0; } /* =13px */
+	select   { font-size: 13px; font-size: 1.3rem; line-height: 1.0; padding: 0; margin: 0; } /* =13px */
+	option   { font-size: 13px; font-size: 1.3rem; line-height: 1.0; padding: 0; margin: 0; } /* =13px */
+	
+	address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; }
+	
+	/*-------------------------------------------------- clearfix */
+
+	/* For modern browsers */
+	.cf:before,
+	.cf:after {
+		content:"";
+		display:table;
+	}
+	 
+	.cf:after {
+		clear:both;
+	}
+	 
+	/* For IE 6/7 (trigger hasLayout) */
+	.cf {
+		zoom:1;
+	}
+	
+/*========================================================================================== module */

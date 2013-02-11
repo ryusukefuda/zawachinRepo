@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#FDEAF3;
+	margin:0;
+	padding:0;
+	}
+
+/*----------------------------------------------------------- wrapper */
+
+.wrapper {
+	width:1000px;
+	margin:0 auto;
+	background-color:#FFF;
+	}
+
+/*----------------------------------------------------------- header */
+
+/*----------------------------------------------------------- contents */
+
+.contents  {
+	margin:30px 0;
+	}
+
+.start {
+	margin:0 0 20px 0;
+	}
+
+.photo img {
+	border:solid 3px #E84C96;
+	padding:15px;
+	}
+
+.button {
+	margin:40px auto 30px;
+	width:550px;
+	}
+
+.button .zawa {
+	float:left;
+	padding:0;
+	margin:0;
+	}
+
+.button .tomo {
+	float:right;
+	padding:0;
+	margin:0;
+	}
+
+#run {
+     margin:80px;
+
+}
+
+.topText1 {
+       color:#666666;
+ 
+          }
+
+.topText2 {
+       margin-top:15px;
+       color:#666666;
+ 
+          }
+
+.rate {
+	background:url(../images/rate.jpg) no-repeat;
+	width:388px;
+	height:287px;
+	margin:40px auto;
+	border:3px solid #E84C96;
+	position:relative;
+	}
+
+.number {
+	position:absolute;
+	top:60px;
+	left:50px;
+	font-size:160px;
+	}
+
+.social {
+        margin:20px; 
+        display:;
+        }
+	
+/*----------------------------------------------------------- container */
+
+/*----------------------------------------------------------- footer */
+
+footer {
+	background:#E95C9E;
+	padding:18px 0;
+	color:#FFF;
+	text-shadow:none;
+	}
+
+.ui-widget {
+        color:white;
+        font-size:13rem;
+
+           }
+footer adress {
+        color:white;
+        font-size:9px;
+
+           }

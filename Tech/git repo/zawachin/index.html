@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="どっちみち,ざわちん,ともちん">
+<meta name="description" content="どっちみちざわちん。AKB48板野友美さん（ともちん）に似ているざわちんを見極めるサイトです。"> 
+<title>どっちみちざわちん</title>
+<link href="css/basic.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/load.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+
+  <style>
+
+  .ui-tooltip {
+    max-width: 530px;
+  }
+  </style>
+
+  <script>
+  $(function() {
+    $( document ).tooltip({
+position: { my: "center top", at: "top center" },
+      items: "img, [data-geo], [title]",
+      content: function() {
+        var element = $( this );
+        if ( element.is( "[data-geo]" ) ) {
+          var text = element.text();
+          return "<img alt='" + text +
+            "' src='images/hotoke3.png'>";
+        }
+      }
+    });
+  });
+  </script>
+
+</head>
+
+<body>
+<div class="wrapper">
+    <header>
+        <img src="images/topimg.jpg">
+    </header>
+    
+    <div class="contents">
+
+     <h1 class="topText1" style="display:;">今話題の<a href="http://ameblo.jp/zawachin/" target="_blank" style="color:#666666; text-decoration:none;">「ざわちん」</a>にハマり、作ってしまいました。</h1>
+     <h2 class="topText2" style="display:;">"ざわちん"どっちだ！？</h2>
+     <p class="start"><input type="image" src="images/sbutton.png" id="run" style="display:;"></p>
+
+     <h3 class="where" style="display:none; color:#666666;">1/18</h3>
+
+     <div class="photo" style="display:none;">
+       <img class="imgZawa" src="" style="height:300px">
+     </div>
+
+
+     <div class="button cf">
+       <p class="zawa"><input type="image" src="images/zawa.png" id="zawachin" style="display:none;"></p>
+       <p class="zawa"><input type="image" src="images/tomo.png" id="tomochin" style="display:none;"></p>
+     </div>
+
+     <!--loading-->
+	<div id="floatingBarsG" style="display:none; margin:150px auto;" class="cf">
+	<div class="blockG" id="rotateG_01">
+	</div>
+	<div class="blockG" id="rotateG_02">
+	</div>
+	<div class="blockG" id="rotateG_03">
+	</div>
+	<div class="blockG" id="rotateG_04">
+	</div>
+	<div class="blockG" id="rotateG_05">
+	</div>
+	<div class="blockG" id="rotateG_06">
+	</div>
+	<div class="blockG" id="rotateG_07">
+	</div>
+	<div class="blockG" id="rotateG_08">
+	</div>
+	</div>
+     <!--/loading-->
+
+     <!--result-->
+        <div class="rate" style="display:none;">
+            <p class="number" style="display:none;"></p>
+        </div>
+     <!--/result-->
+
+     <p class="back" style="display:none;"><img src="images/topbutton.png"></p>
+
+     <div class="social">
+
+     <!--Facebook-->
+<iframe src="//www.facebook.com/plugins/like.php?href=http://hotoke3.wandering.jp/zawachin/index.html&amp;send=false&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;width=70&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+
+     <!--hatena-->
+<a href="http://b.hatena.ne.jp/entry/http://hotoke3.wandering.jp/zawachin/index.html" class="hatena-bookmark-button" data-hatena-bookmark-title="どっちみちざわちん" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button_wo_al.js" charset="utf-8" async="async"></script>
+
+     <!--twitter-->
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+     <!--line-->
+<script type="text/javascript" src="http://media.line.naver.jp/js/line-button.js" ></script>
+<script type="text/javascript">
+new jp.naver.line.media.LineButton({"pc":false,"lang":"ja","type":"a"});
+</script>
+     </div>
+
+
+
+    </div>
+
+    <footer>
+    	<address>copyright@</a><a href="#" class="ui-widget" data-geo="data-geo">hotoke3</a></address>
+    </footer>
+</div>    
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38279258-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>
